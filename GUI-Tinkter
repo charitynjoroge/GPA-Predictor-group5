@@ -1,0 +1,42 @@
+# Tkinter UI
+def create_ui():
+    def on_predict():
+        try:
+            hours = float(entry.get())
+            gpa = predict_gpa(hours)
+            if isinstance(gpa, float):
+                result_label.config(text=f"Predicted GPA: {gpa:.2f}")
+            else:
+                result_label.config(text=gpa)
+        except ValueError:
+            messagebox.showerror("Invalid Input", "Please enter a valid number.")
+
+    window = tk.Tk()
+    window.title("GPA Predictor")
+    window.geometry("300x200")
+    window.resizable(False, False)
+
+    title_label = tk.Label(window, text="📘 GPA Predictor", font=("Arial", 16, "bold"))
+    title_label.pack(pady=10)
+
+    entry_label = tk.Label(window, text="Enter study hours:")
+    entry_label.pack()
+
+    entry = tk.Entry(window, width=20)
+    entry.pack(pady=5)
+
+    predict_button = tk.Button(window, text="Predict GPA", command=on_predict)
+    predict_button.pack(pady=5)
+
+    result_label = tk.Label(window, text="", font=("Arial", 12), fg="blue")
+    result_label.pack(pady=10)
+
+    # Show average GPA at the bottom
+    avg = calculate_average_gpa(data)
+    avg_label = tk.Label(window, text=f"📊 Average GPA: {avg:.2f}", font=("Arial", 10, "italic"))
+    avg_label.pack(side="bottom", pady=5)
+
+    window.mainloop()
+
+if _name_ == "_main_":
+    create_ui()
