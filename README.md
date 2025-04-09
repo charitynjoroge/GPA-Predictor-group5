@@ -28,14 +28,11 @@ This Jupyter Notebook predicts a student's GPA based on the number of study hour
 
 ```python
 study_hours = 7
-predicted_gpa = 2.7
+predicted_gpa = 2.70
 
-### Accessing the code
 
-You can find the full project on GitHub:
-```
- https://github.com/charitynjoroge/final-project1025A
+https://github.com/charitynjoroge/final-project1025A
 
-```
+
 
 
