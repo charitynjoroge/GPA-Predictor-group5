@@ -22,7 +22,7 @@ This Jupyter Notebook predicts a student's GPA based on the number of study hour
 
 1. Open the notebook in Jupyter.
 2. Run all cells sequentially.
-3. The GUI window will appear—enter your study hours and see the predicted GPA.
+3. The GUI window will appear—enter your study hours and see the predicted GPA..
 
 ## 📘 Example
 
@@ -32,7 +32,7 @@ predicted_gpa = 2.70
 
 ```
 
-https://github.com/charitynjoroge/final-project1025A
+https://github.com/charitynjoroge/final-project1025A 
 
 ```
 
