@@ -1,5 +1,14 @@
 # final-project1025A
 
+# Group 5 Members
+
+1. Lenny Karanja - 670597  
+2. Charity Njoroge - 673215  
+3. Sharon Kariuki - 672063  
+4. Nicholas Nyandigisi - 671958  
+5. Videlis H. Nyarigoti - 673446  
+6. Ali Abed - 670910 
+
 # GPA Predictor 📘
 
 This Jupyter Notebook predicts a student's GPA based on the number of study hours per week using linear interpolation.
